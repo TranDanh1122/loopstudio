@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --dark_gray: hsl(0, 0%, 55%);
+    --very_dark_gray: hsl(0, 0%, 41%);
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+main,
+header {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 80%;
+    max-width: 70rem;
+    margin: 0 auto;
+}
+.header {
+    background-image: url(./images/desktop/image-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 9.125rem;
+    padding-top:4rem ;
+}
+.header__logo {
+    width: 12rem;
+    height: 2rem;
+    display: block;
+    mask: url(images/logo.svg) center / contain no-repeat;
+    -webkit-mask: url(images/logo.svg) center / contain no-repeat;
+    background-color: var(--white);
+}
+
+.header__nav {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    list-style: none;
+}
+
+.header__menu a {
+    font-family: "Alata", sans-serif;
+    line-height: 1.5rem;
+    color: var(--white);
+}
+
+.header__wrapper h1 {
+    color: var(--white);
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 4.5rem;
+    line-height: 4.25rem;
+    font-weight: 300;
+    padding: 2.5rem;
+    border: 1px solid var(--white);
+    width: 60%;
+    margin-top: 8.125rem;
+}
