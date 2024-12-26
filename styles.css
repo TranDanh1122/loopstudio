@@ -44,7 +44,6 @@ header {
     background-size: cover;
     padding-bottom: 9.125rem;
     padding-top: 4rem;
-    background-color: rgba(0, 0, 0, .5);
 }
 
 .logo {
@@ -369,7 +368,7 @@ footer {
         background-image: url(./images/mobile/image-hero.jpg);
     }
     .container {
-        width: 99%;
+        width: 95%;
     }
 
     .header__wrapper h1 {
